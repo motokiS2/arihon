@@ -2,6 +2,7 @@ l = int(input())
 n = int(input())
 x = list(map(int, input().split()))
 
+# 一番端から離れてるアリ
 max_time = max(max(x), l - min(x))
 
 min_time = 0
